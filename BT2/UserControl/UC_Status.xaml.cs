@@ -18,7 +18,7 @@ namespace BT2.UserControl
     /// <summary>
     /// Interaction logic for UC_Status.xaml
     /// </summary>
-    public partial class UC_Status : UserControl
+    public partial class UC_Status : System.Windows.Controls.UserControl
     {
         public UC_Status()
         {

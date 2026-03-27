@@ -18,7 +18,7 @@ namespace BT2.UserControl
     /// <summary>
     /// Interaction logic for UC_Main.xaml
     /// </summary>
-    public partial class UC_Main : UserControl
+    public partial class UC_Main : System.Windows.Controls.UserControl
     {
         public UC_Main()
         {

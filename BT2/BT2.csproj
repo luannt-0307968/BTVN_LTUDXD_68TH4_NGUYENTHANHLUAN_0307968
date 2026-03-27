@@ -116,9 +116,7 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Images\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <Resource Include="Icons\Add Link.png" />
     <Resource Include="Icons\Bookmark.png" />
@@ -132,6 +130,9 @@
     <Resource Include="Icons\Query Inner Join Right.png" />
     <Resource Include="Icons\Right Arrow.png" />
     <Resource Include="Icons\Share.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\background.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
