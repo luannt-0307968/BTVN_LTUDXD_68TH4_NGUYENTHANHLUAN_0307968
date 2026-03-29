@@ -49,6 +49,8 @@ namespace MauDuAn_CTThietKeDam.Models
             set { _frame = value; }
         }
 
+        public object FrameForces { get; internal set; }
+
         //constructor - hàm khởi tạo
         Beam(string id, string mark, string story)
         {
